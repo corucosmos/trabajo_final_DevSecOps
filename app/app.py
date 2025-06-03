@@ -81,7 +81,6 @@ def get_pedido(id):
         
 
 
-
 # Ruta para crear un nuevo pedido
 @app.route('/pedidos', methods=['POST'])
 def create_pedido():
