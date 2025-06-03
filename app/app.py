@@ -75,8 +75,9 @@ def get_pedido(id):
     except Exception as e:
         logger.info(f"{get_ip()} - Error {str(e)}")
         return jsonify({"error": str(e)}), 500
-        
 
+
+        
         
 
 
